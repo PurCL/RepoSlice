@@ -218,7 +218,7 @@ Compress your version of `src/` directory ONLY into a file named `proj3_<FirstNa
 
 ## Contact Us
 
-We will offer a tutorial on Nov 11 (Tue) and release the tutorial recording, from which you can obtain more details about the structure of `RepoSlice` and guidance on the slicer implementation. The slides of the tutorial are included in the directory `doc`.
+We will offer a tutorial on Nov 11 (Tue) and release the tutorial recording, from which you can obtain more details about the structure of `RepoSlice` and guidance on the slicer implementation. The slides of the tutorial are included in the directory `docs`.
 
 If you have any further questions, please feel free to reach out to us:
 
