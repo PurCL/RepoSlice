@@ -290,11 +290,6 @@ class IntraSlicer(LLMTool[IntraSlicerInput, IntraSlicerOutput]):
                     or match["line_number"] is None
                 ):
                     continue
-                if (
-                    match["type"] == "Global Variable"
-                    and match["variable_name"] is None
-                ):
-                    continue
                 if match["type"] == "Output Value" and (
                     # index is optional for output values. In C/C++/Java, index is always None and the field index in Value is -1 by default.
                     match["callee_name"] is None
